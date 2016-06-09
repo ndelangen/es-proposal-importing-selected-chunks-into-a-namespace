@@ -95,7 +95,7 @@ htmlLib.parse();
 
 ## Why
 
-Declaring **exactly** what you depend on is great; you loose some of this when using the `import * as foo from 'bar';` syntax. 
+Declaring **exactly** what you depend on is great; you lose some of this when using the `import * as foo from 'bar';` syntax. 
 It saves a lot of renaming / namespacing individual chunks.
 Small modules with a single export may be the preferred default but there are usecases for modules with many exports.
 
